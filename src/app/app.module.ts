@@ -2,13 +2,16 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { SknFaInputComponent } from './lib/skn-fa-input/skn-fa-input.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SknFaInputComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    // FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
